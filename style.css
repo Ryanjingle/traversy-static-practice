@@ -6,6 +6,7 @@ body{
 }
 
 /*global*/
+
 .container{
     width: 80%;
     height: auto;
@@ -23,6 +24,13 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
+}
+.dark{
+    padding: 15px;
+    background-color:#35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Header */
@@ -54,7 +62,8 @@ header nav{
     float: right;
     margin-top: 10px;
 }
-header .highlight, header .current a{
+header .highlight, 
+header .current a{
     color: #e8491d;
     font-weight: bold;
 }
@@ -114,6 +123,21 @@ header a:hover{
 #boxes .box img{
     width: 80px;
     height: 70px;
+}
+
+/* Sidebar */
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Main-Col */
+
+article#main-col{
+    float: left;
+    width: 65%;
 }
 
 /* Footer */
